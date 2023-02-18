@@ -1,0 +1,39 @@
+body {
+    background-image: url("imgs/backgroundLp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 95vh;
+
+  }
+
+  .container {
+    background-color: #131212f1;
+    width: 500px;
+    border-radius: 3px;
+
+  }
+
+  .img-thumbnail {
+    width: 180px;
+    height: auto;
+    background-color: #131212f1;
+    border: 1px solid #131212f1;
+  }
+
+  @media(max-width:500px) {
+    .container {
+      width: 400px;
+    }
+  }
+
+  @media(max-width:400px) {
+    body {
+      height: auto;
+    }
+
+    .container {
+      width: 300px;
+      height: auto;
+    }
+  }
